@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManageOrderDetailsFormController">
+   <children>
+      <Label layoutX="150.0" layoutY="14.0" prefHeight="55.0" prefWidth="430.0" text="Manage Order Details" textFill="#243cc6">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="156.0" layoutY="137.0" onAction="#btnUpdateOrderDetailsOnAction" prefHeight="55.0" prefWidth="423.0" style="-fx-background-color: #1ac6ff;" text="Update Order Details" textFill="#220000">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="154.0" layoutY="257.0" onAction="#btnDeleteOrderDetailsOnAction" prefHeight="55.0" prefWidth="423.0" style="-fx-background-color: #1ac6ff;" text="Delete Order Details" textFill="#460303">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="511.0" layoutY="444.0" onAction="#btnBackOnAction" prefHeight="42.0" prefWidth="175.0" style="-fx-background-color: #ff0000;" text="Back" textFill="#fcf9f9">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXButton>
+      <Separator layoutX="14.0" layoutY="65.0" prefHeight="6.0" prefWidth="671.0" />
+   </children>
+</AnchorPane>

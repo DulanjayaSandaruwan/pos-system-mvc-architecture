@@ -1,0 +1,19 @@
+
+M
+java:S1172"2Remove this unused method parameter "actionEvent".(ÛÌÄìÿÿÿÿÿ
+H
+java:S11721"2Remove this unused method parameter "actionEvent".(ÿ¼à«
+f
+java:S1104"PMake root a static final constant or non-public and provide accessors if needed.(ý„È¬
+r
+java:S1104"WMake txtItemCode a static final constant or non-public and provide accessors if needed.(øÜÜ¡üÿÿÿÿ
+u
+java:S1104"ZMake txtDescription a static final constant or non-public and provide accessors if needed.(«’›™ùÿÿÿÿ
+r
+java:S1104"WMake txtPackSize a static final constant or non-public and provide accessors if needed.(ÃÞŽˆüÿÿÿÿ
+s
+java:S1104"XMake txtUnitPrice a static final constant or non-public and provide accessors if needed.(©›×Ðùÿÿÿÿ
+m
+java:S1104"XMake txtQtyOnHand a static final constant or non-public and provide accessors if needed.(è¡”X
+t
+java:S1104"YMake btnSearchItem a static final constant or non-public and provide accessors if needed.(ä¤õüûÿÿÿÿ

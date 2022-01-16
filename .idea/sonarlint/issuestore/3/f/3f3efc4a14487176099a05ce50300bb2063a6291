@@ -1,0 +1,20 @@
+
+C	java:S108G")Either remove or fill this block of code.(×¼¨Êúÿÿÿÿ
+\
+java:S1126y"AReplace this if-then-else statement by a single return statement.(¢ÈÍéúÿÿÿÿ
+A
+java:S1128"+Remove this unused import 'model.Customer'.(°¶ãê
+e
+java:S2095@"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ö¯
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·—Êø
+e
+java:S2095)"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(÷ò‰æ
+j
+java:S2095\"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ãğôãûÿÿÿÿ
+j
+java:S2095o"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(„Œ›Ìÿÿÿÿÿ
+e
+java:S2095V"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(øàİ«
+j
+java:S2095y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¢ÈÍéúÿÿÿÿ

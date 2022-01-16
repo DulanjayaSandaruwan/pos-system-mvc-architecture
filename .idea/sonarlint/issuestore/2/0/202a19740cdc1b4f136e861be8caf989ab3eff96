@@ -1,0 +1,25 @@
+
+M
+java:S1172 "2Remove this unused method parameter "actionEvent".(žðÎóùÿÿÿÿ
+M
+java:S1172+"2Remove this unused method parameter "actionEvent".(Ü÷¿ðøÿÿÿÿ
+H
+java:S1172>"2Remove this unused method parameter "actionEvent".(ÿ¼à«
+n
+java:S1104"YMake txtCustomerID a static final constant or non-public and provide accessors if needed.(Š®¤1
+w
+java:S1104"\Make txtCustomerTitle a static final constant or non-public and provide accessors if needed.(»î¯™ÿÿÿÿÿ
+v
+java:S1104"[Make txtCustomerName a static final constant or non-public and provide accessors if needed.(ì¨ìÑøÿÿÿÿ
+t
+java:S1104"^Make txtCustomerAddress a static final constant or non-public and provide accessors if needed.(ççïÈ
+p
+java:S1104"[Make txtCustomerCity a static final constant or non-public and provide accessors if needed.(‘Ùði
+u
+java:S1104"_Make txtCustomerProvince a static final constant or non-public and provide accessors if needed.(‹Êñž
+|
+java:S1104"aMake txtCustomerPostalCode a static final constant or non-public and provide accessors if needed.(žªòœþÿÿÿÿ
+x
+java:S1104"]Make btnDeleteCustomer a static final constant or non-public and provide accessors if needed.(ùÈÌ¤ÿÿÿÿÿ
+f
+java:S1104"PMake root a static final constant or non-public and provide accessors if needed.(ý„È¬

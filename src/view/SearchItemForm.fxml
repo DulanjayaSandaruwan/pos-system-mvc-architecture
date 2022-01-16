@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchItemFormController">
+   <children>
+      <Label layoutX="159.0" layoutY="5.0" prefHeight="46.0" prefWidth="385.0" text="Search Item Form" textFill="#0d51b5">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <Separator layoutX="27.0" layoutY="60.0" prefHeight="3.0" prefWidth="657.0" />
+      <JFXTextField fx:id="txtItemCode" layoutX="32.0" layoutY="98.0" prefHeight="24.0" prefWidth="647.0" promptText="Item Code">
+         <font>
+            <Font size="20.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtDescription" layoutX="31.0" layoutY="163.0" prefHeight="24.0" prefWidth="647.0" promptText="Description">
+         <font>
+            <Font size="20.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtPackSize" layoutX="32.0" layoutY="229.0" prefHeight="24.0" prefWidth="647.0" promptText="Pack Size">
+         <font>
+            <Font size="20.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtUnitPrice" layoutX="33.0" layoutY="293.0" prefHeight="24.0" prefWidth="647.0" promptText="Unit Price">
+         <font>
+            <Font size="20.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtQtyOnHand" layoutX="32.0" layoutY="363.0" prefHeight="24.0" prefWidth="647.0" promptText="Qty On Hand">
+         <font>
+            <Font size="20.0" />
+         </font></JFXTextField>
+      <JFXButton fx:id="btnSearchItem" layoutX="275.0" layoutY="431.0" onAction="#btnSearchItemOnAction" prefHeight="46.0" prefWidth="189.0" style="-fx-background-color: #009933;" text="Search Item" textFill="#140000">
+         <font>
+            <Font size="22.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="492.0" layoutY="431.0" onAction="#btnBackOnAction" prefHeight="46.0" prefWidth="189.0" style="-fx-background-color: #ff0000;" text="Back" textFill="#f8f8f8">
+         <font>
+            <Font size="24.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>

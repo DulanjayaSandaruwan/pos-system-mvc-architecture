@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AnnualyIncomeReportsFormController">
+   <children>
+      <Label layoutX="202.0" layoutY="7.0" prefHeight="48.0" prefWidth="317.0" text="Income Reports" textFill="#1e55a1">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <Separator layoutX="48.0" layoutY="56.0" prefHeight="6.0" prefWidth="622.0" />
+      <LineChart fx:id="lneChartIncomeReports" layoutX="31.0" layoutY="71.0" prefHeight="349.0" prefWidth="641.0" title="Monthly Incomes">
+         <xAxis>
+            <CategoryAxis label="Year" side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis label="Income" side="LEFT" />
+         </yAxis>
+      </LineChart>
+      <JFXButton layoutX="568.0" layoutY="448.0" onAction="#btnBackOnAction" prefHeight="35.0" prefWidth="122.0" style="-fx-background-color: #ff0000;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="236.0" layoutY="431.0" onAction="#btnShowResultsOnAction" prefHeight="49.0" prefWidth="233.0" style="-fx-background-color: #009933;" text="Show Results">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
